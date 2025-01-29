@@ -11,7 +11,7 @@ You have an array of friends' names. Write a script that:
 - Each name will be displayed with animation: it will be hidden initially, then gradually fade in.
 - After each name, add the word "best" after it.
 - Change the style of the name "Arseniy" so that it stands out from the other names (e.g., change the text color to red).
-- The page's header (<h1>) should read "My Friends".
+- The page's header (h1) should read "My Friends".
 - Use jQuery to manipulate the DOM and handle the animations.
 
 ### Task 2
