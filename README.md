@@ -4,10 +4,10 @@ This repository contains several projects that cover various aspects of web deve
 
 ## Contents
 
-1. [**Marvel Website**](): This project features an informational website about Marvel characters and movies, using HTML, CSS, and JavaScript to dynamically display data.
-2. [**Game**](): A small JavaScript-based game inspired by Marvel characters, with interactive elements and simple animations.
-3. [**JavaScript Course**](): Solutions to various JavaScript exercises from a js-course.
-4. [**JavaScript Tasks**](): My small projects in JS.
+1. [**Marvel Website**](https://github.com/TemaBlag/Web/tree/main/marvel_site): This project features an informational website about Marvel characters and movies, using HTML, CSS, and JavaScript to dynamically display data.
+2. [**Game**](https://github.com/TemaBlag/Web/tree/main/game): A small JavaScript-based game inspired by Marvel characters, with interactive elements and simple animations.
+3. [**JavaScript Course**](https://github.com/TemaBlag/Web/tree/main/js_course): Solutions to various JavaScript exercises from a js-course.
+4. [**JavaScript Tasks**](https://github.com/TemaBlag/Web/tree/main/js_tasks): My small projects in JS.
 
 ## Technologies
 
