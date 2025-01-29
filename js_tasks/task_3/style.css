@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(#ebc547, #77259c) fixed;
+}
+
+.titleh1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blockButton{
+    padding: 1% 0% 2%;
+}
+
+.variable{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #3d0a11;
+    background: linear-gradient(#f4ab0f, #dec81d) fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: black;
+    left: 45%;
+}
+
+.textOst{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.textOst1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}

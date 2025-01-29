@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(#ebc547, #77259c) fixed;
+}
+
+.titleh1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titleh2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.0;
+}
+
+.tableClass{
+  font-size: 50px;
+}
+
+.recode{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #3d0a11;
+    background: linear-gradient(#f4ab0f, #dec81d) fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: black;
+    left: 46%;
+}
+
+.blockButton{
+    padding: 1% 0% 2%;
+}
+
+input[type="text"] {
+    border: 1px solid #cccccc; 
+    border-radius: 3px; 
+    background: #ffffff !important; 
+    outline: none;
+    height: 24px; 
+    width: 120px; 
+    color: #1c1a1a; 
+    font-size: 25px; 
+    font-family: Tahoma;
+}
+
+textarea{
+    color: initial;
+    display: inline-block;
+    background-color: white;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font: 400 13.333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    padding: 2px;
+}
+
+.block{
+    padding: 4%;
+}
+
+.block1{
+   padding: 1%;
+}
+
+.code{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 40%;
+    border-radius: 5px;
+    border: 2px solid #2a6cb7;
+    background: linear-gradient(#2ee4c3, #096f8f) fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: aliceblue;
+}
+
+.decode{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    border-radius: 5px;
+    border: 2px solid #d22945;
+    background: linear-gradient(#2ee4c3, #096f8f) fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: aliceblue;
+}

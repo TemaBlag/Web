@@ -1,0 +1,607 @@
+body {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    min-height : 10vh;
+    }
+
+    ul {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    position : relative;
+    z-index : 2;
+    }
+
+    li {
+    display : block;
+    padding : 0 50px;
+    color : black;
+    font-size : 30px;
+    text-transform : uppercase;
+    transition : 0.5s;
+    }
+
+    li a {
+    text-decoration : none;
+    color : white;
+    transition : 0.5s;
+    padding : 10px;
+    position : relative;
+    z-index : 1;
+    }
+
+    ul:hover li a {
+    filter : blur(5px);
+    }
+
+    ul:hover li a:hover {
+    font-size : 40px;
+    filter : blur(0);
+    }
+
+    .heading img {
+    position : absolute;
+    z-index : 2;
+    width : 200px;
+    height : 80px;
+    top : 20px;
+    left : 8%;
+    }
+
+    .text {
+    font-weight : bold;
+    }
+
+    .fon1 {
+    position : absolute;
+    z-index : 1;
+    height : 120px;
+    width : 100%;
+    top : 0;
+    left : 0;
+    }
+
+    .Avengers {
+    position : absolute;
+    z-index : 2;
+    top : 220px;
+    width : 1536px;
+    height : 689px;
+    }
+
+    .fon2 {
+    position : absolute;
+    z-index : 1;
+    height : 689px;
+    width : 100%;
+    top : 220px;
+    left : 0;
+    }
+
+    .search-box {
+    display : flex;
+    position : absolute;
+    z-index : 2;
+    background-color : red;
+    height : 40px;
+    border-radius : 40px;
+    right : 8%;
+    padding : 10px;
+    }
+
+    .search-btn {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    color : white;
+    width : 40px;
+    height : 40px;
+    border-radius : 50%;
+    background-color : red;
+    text-decoration : none;
+    }
+
+    .search-txt {
+    border : none;
+    outline : none;
+    background : none;
+    padding : 0;
+    color : red;
+    font-size : 22px;
+    transition : 0.4s;
+    line-height : 40px;
+    width : 0;
+    }
+
+    .search-box:hover .search-txt {
+    width : 200px;
+    padding : 0 6px;
+    }
+
+    .search-box:hover .search-btn {
+    background-color : red;
+    }
+
+    .fon3 {
+    position : absolute;
+    z-index : 1;
+    height : 660px;
+    width : 100%;
+    top : 1009px;
+    right : 0;
+    }
+
+    .title1 {
+    top : 1130px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    text-transform : uppercase;
+    font-size : 45px;
+    color : white;
+    }
+
+    .a3 {
+    top : 1030px;
+    position : absolute;
+    z-index : 2;
+    left : 34%;
+    height : 540px;
+    width : 400px;
+    border : white solid 3px;
+    border-radius : 70px;
+    }
+
+    .a2 {
+    top : 1030px;
+    position : absolute;
+    z-index : 2;
+    left : 54.45%;
+    height : 540px;
+    width : 400px;
+    border : white solid 3px;
+    border-radius : 70px;
+    }
+
+    .a1 {
+    top : 1030px;
+    position : absolute;
+    z-index : 2;
+    left : 75%;
+    height : 540px;
+    width : 400px;
+    border : white solid 3px;
+    border-radius : 70px;
+    }
+
+    .title2 {
+    top : 1240px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    font-family : "JOSEFIN SANS";
+    font-size : 27px;
+    max-width : 23%;
+    color : white;
+    }
+
+    .name1 {
+    top : 1580px;
+    position : absolute;
+    z-index : 2;
+    left : 36%;
+    text-transform : uppercase;
+    font-size : 35px;
+    color : white;
+    }
+
+    .name2 {
+    top : 1580px;
+    position : absolute;
+    z-index : 2;
+    left : 58%;
+    text-transform : uppercase;
+    font-size : 35px;
+    color : white;
+    }
+
+    .name3 {
+    top : 1580px;
+    position : absolute;
+    z-index : 2;
+    left : 80%;
+    text-transform : uppercase;
+    font-size : 35px;
+    color : white;
+    }
+
+    .fotter {
+    position : absolute;
+    z-index : 1;
+    height : 120px;
+    width : 100%;
+    top : 5804px;
+    left : 0;
+    }
+
+    .fotter-title1 {
+    position : absolute;
+    z-index : 2;
+    top : 5834px;
+    left : 28%;
+    text-transform : uppercase;
+    font-size : 30px;
+    color : white;
+    }
+
+    .instagram {
+    position : absolute;
+    z-index : 2;
+    top : 5849px;
+    left : 44%;
+    color : white;
+    font-size : 40px;
+    }
+
+    .twitter {
+    position : absolute;
+    z-index : 2;
+    top : 5849px;
+    left : 47%;
+    color : white;
+    font-size : 40px;
+    }
+
+    .facebook {
+    position : absolute;
+    z-index : 2;
+    top : 5849px;
+    left : 50%;
+    color : white;
+    font-size : 40px;
+    }
+
+    .youtube {
+    position : absolute;
+    z-index : 2;
+    top : 5849px;
+    left : 53%;
+    color : white;
+    font-size : 40px;
+    }
+
+    .tumbrl {
+    position : absolute;
+    z-index : 2;
+    top : 5849px;
+    left : 56%;
+    color : white;
+    font-size : 40px;
+    }
+
+    .fotter-title2 {
+    position : absolute;
+    z-index : 2;
+    top : 5839px;
+    left : 60%;
+    text-transform : uppercase;
+    font-size : 30px;
+    color : white;
+    }
+
+    .sokol {
+    top : 1769px;
+    position : absolute;
+    z-index : 2;
+    right : 7%;
+    height : 735px;
+    width : 1103px;
+    }
+
+    .fon4 {
+    top : 1769px;
+    position : absolute;
+    z-index : 1;
+    left : 0%;
+    height : 735px;
+    width : 100%;
+    }
+
+    .title3 {
+    top : 2120px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    font-family : "JOSEFIN SANS";
+    font-size : 27px;
+    max-width : 45%;
+    color : white;
+    }
+
+    .hawkeye {
+    top : 1690px;
+    position : absolute;
+    z-index : 2;
+    left : 2%;
+    }
+
+    .button1 {
+    top : 2210px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    text-transform : uppercase;
+    font-size : 25px;
+    color : white;
+    border : white solid 2px;
+    background-color : rgb(14, 1, 48);
+    padding : 18px;
+    clip-path : polygon(25% 0%,100% 0,100% 50%,75% 100%,0 100%,0% 40%);
+    }
+
+    .button1block:hover .button1 {
+    animation : haw 1s forwards;
+    }
+
+    .button2 {
+    top : 2210px;
+    position : absolute;
+    z-index : 2;
+    left : 20%;
+    text-transform : uppercase;
+    font-size : 25px;
+    color : white;
+    border : white solid 2px;
+    background-color : rgb(14, 1, 48);
+    padding : 18px;
+    clip-path : polygon(25% 0%,100% 0,100% 50%,75% 100%,0 100%,0% 40%);
+    }
+
+    .button2block:hover .button2 {
+    animation : haw 1s forwards;
+    }
+
+    @keyframes haw {
+       0% {
+     clip-path : polygon(25% 0%,100% 0,100% 50%,75% 100%,0 100%,0% 40%);
+      }
+      100% {
+       clip-path : polygon(0% 0%,100% 0,100% 100%,100% 100%,0 100%,0% 0%);
+      }
+    }
+
+    .video {
+    position : absolute;
+    z-index : 2;
+    top : 2604px;
+    left : 8%;
+    }
+
+    .fon5 {
+    position : absolute;
+    z-index : 1;
+    top : 2604px;
+    width : 100%;
+    height : 700px;
+    }
+
+    .spider {
+    position : absolute;
+    z-index : 2;
+    top : 2664px;
+    right : 7%;
+    height : 300px;
+    width : 700px;
+    }
+
+    .title-spider {
+    position : absolute;
+    z-index : 2;
+    top : 2940px;
+    right : 7%;
+    font-family : "JOSEFIN SANS";
+    font-size : 27px;
+    color : white;
+    width : 29%;
+    line-height : 1.3;
+    }
+
+    .fon6 {
+    position : absolute;
+    z-index : 1;
+    top : 3404px;
+    width : 100%;
+    height : 700px;
+    }
+
+    .comics1 {
+    position : absolute;
+    z-index : 2;
+    top : 3404px;
+    width : 1137px;
+    height : 720px;
+    right : 7%;
+    }
+
+    .comics2 {
+    position : absolute;
+    z-index : 3;
+    top : 3534px;
+    width : 256px;
+    height : 384px;
+    right : 21%;
+    border : rgb(240, 243, 67) solid 5px;
+    box-shadow : 0 0 40px 20px rgb(240, 243, 67);
+    }
+
+    .magaz {
+    position : absolute;
+    z-index : 2;
+    top : 3514px;
+    left : 8%;
+    text-transform : uppercase;
+    font-size : 45px;
+    color : rgb(241, 226, 9);
+    }
+
+    .magaz1 {
+    top : 3620px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    font-family : "JOSEFIN SANS";
+    font-size : 27px;
+    width : 40%;
+    color : white;
+    }
+
+    .button3 {
+    top : 3720px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    text-transform : uppercase;
+    font-size : 25px;
+    color : white;
+    border : white solid 2px;
+    background-color : rgb(14, 1, 48);
+    padding : 18px;
+    clip-path : polygon(25% 0%,100% 0,100% 50%,75% 100%,0 100%,0% 40%);
+    }
+    
+    .shop:hover .button3 {
+    animation : haw 1s forwards;
+    }
+
+    .fon7 {
+    position : absolute;
+    z-index : 1;
+    top : 4204px;
+    width : 100%;
+    height : 700px;
+    }
+      
+   .averins {
+   position : absolute;
+   z-index : 2;
+   top : 4204px;
+   width : 1333px;
+   height : 700px;
+   left: 8%;
+   }
+
+   .inside1 {
+    top : 4330px;
+    position : absolute;
+    z-index : 2;
+    left : 68%;
+    text-transform : uppercase;
+    font-size : 27px;
+    color : rgb(255, 28, 28);
+    }   
+
+   .inside2 {
+   top : 4380px;
+   position : absolute;
+   z-index : 2;
+   left : 68%;
+   text-transform : uppercase;
+   font-size : 45px;
+   color : white;
+   }  
+
+   .inside3 {
+    top : 4470px;
+    position : absolute;
+    z-index : 2;
+    left : 68%;
+    font-family : "JOSEFIN SANS";
+    font-size : 27px;
+    max-width: 23%;
+    color : white;
+    }   
+
+   .join {
+   top : 4600px;
+   position : absolute;
+   z-index : 2;
+   left : 68%;
+   text-transform : uppercase;
+   font-size : 25px;
+   color : white;
+   border : white solid 2px;
+   background-color : rgb(14, 1, 48);
+   padding : 18px;
+   clip-path : polygon(25% 0%,100% 0,100% 50%,75% 100%,0 100%,0% 40%);
+   }
+  
+   .inside:hover .join {
+   animation : haw 1s forwards;
+   }        
+
+   .fon8 {
+    position : absolute;
+    z-index : 1;
+    top : 5004px;
+    width : 100%;
+    height : 700px;
+    }
+
+   .super {
+   position : absolute;
+   z-index : 2;
+   top : 5004px;
+   right: 7%;
+   height : 700px;
+   width : 1244px;
+   }    
+
+   .super1 {
+    position : absolute;
+    z-index : 2;
+    top : 5054px;
+    left: 8%;
+    height: 191px;
+    width: 402px;
+    }     
+
+   .charat1 {
+    top : 5240px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    text-transform : uppercase;
+    font-size : 45px;
+    color : white;
+    }    
+
+   .charat2 {
+    top : 5330px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    font-family : "JOSEFIN SANS";
+    font-size : 27px;
+    max-width : 23%;
+    color : white;
+    }    
+
+   .superheroes1 {
+    top : 5460px;
+    position : absolute;
+    z-index : 2;
+    left : 8%;
+    text-transform : uppercase;
+    font-size : 25px;
+    color : white;
+    border : white solid 2px;
+    background-color : rgb(31, 210, 223);
+    padding : 18px;
+    clip-path : polygon(25% 0%,100% 0,100% 50%,75% 100%,0 100%,0% 40%);
+    }
+     
+    .superheroes:hover .superheroes1 {
+    animation : haw 1s forwards;
+    }        
+       

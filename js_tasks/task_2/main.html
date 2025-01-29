@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <title>Задание 2</title>
+         <link rel="stylesheet" type="text/css" href="style.css" />
+     </head>
+    <body>
+        <h1 class="titleh1" align="center">Создайте свой ключ!</h1>
+        <h1 class="titleh1" align="center">Введите букву, которой хотите зашифровать</h1>
+        <div class="tableletter" align="center"><table border="1" class="tableClass">
+            <tr>
+               <th>б</th>
+               <th>в</th>
+               <th>г</th>
+               <th>д</th>
+               <th>ж</th>
+               <th>з</th>
+               <th>к</th>
+               <th>л</th>
+               <th>м</th>
+               <th>н</th>
+            </tr>
+            <tr>
+                <th><input type="text" class="letter1"></th>
+                <th><input type="text" class="letter2"></th>
+                <th><input type="text" class="letter3"></th>
+                <th><input type="text" class="letter4"> </th>
+                <th><input type="text" class="letter5"> </th>
+                <th><input type="text" class="letter6"></th>
+                <th><input type="text" class="letter7"> </th>
+                <th><input type="text" class="letter8"></th>
+                <th><input type="text" class="letter9"></th>
+                <th><input type="text" class="letter10"> </th>
+               </tr>
+        </table></div>
+        <div class="blockButton"><button class="recode">Шифровать</button></div>
+        <h1 class="titleh2" align="center">А теперь попробуйте свой ключ</h1>
+        <div  class="block1" align="center"><textarea class="textArea" cols="100" rows="15" placeholder="Введите текст" ></textarea></div>
+        <button class="decode">Расшифровать</button>
+        <button class="code">Зашифровать</button>
+        <div class="block" align="center" ><textarea disabled class="newtextArea" cols="100" rows="15"></textarea></div>
+        <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+        <script src="logic.js"></script>
+    </body>
+</html>
